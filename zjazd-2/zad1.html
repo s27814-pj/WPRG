@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!-- comment -->
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="zad1.css">
+
+    <!--    <script src="script-calc.js"></script>-->
+
+</head>
+
+
+<body>
+
+
+<div id="rectangleTop">
+    test
+</div>
+<div id="rectangleBottom">
+    <form id="calc" action="zad1.php" method="get">
+        <fieldset>
+            <input type="number" name="val1" step="1"><input type="number" name="val2" step="1">
+            <label for="select"></label>
+            <select id="select" name="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <button type="submit" id="send">Oblicz</button>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+
+
+
+</html>

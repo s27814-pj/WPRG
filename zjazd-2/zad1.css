@@ -1,0 +1,28 @@
+body {
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:0px;
+
+}
+
+#rectangleTop {
+    width: 300px;
+    height: 50px;
+    text-align: right;
+    background-color: green;
+}
+#rectangleBottom {
+    width: 300px;
+    height: 50px;
+    background-color: grey;
+}
+#calc{
+    display:flex;
+}
+#calc  input, button, select{
+    width: 50px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
